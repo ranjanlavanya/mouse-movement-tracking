@@ -4,7 +4,8 @@ Created on Tue Nov 18 18:47:02 2025
 
 @author: Lavanya Ranjan
 """
-# averages frames across an excel to give time in seconds. basically converts 180000 frames in a csv to 600s, by calculationg one averaged data point for 30 frames.
+# The code averages frames across an excel to give time in seconds. Basically converts 180000 frames in a csv to 600s, by calculationg one averaged data point for 30 frames.
+# Thus, it allows us to visualise velocity as a function of time rather than frames, making it more meaningful.
 
 import os
 import pandas as pd
